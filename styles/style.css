@@ -64,14 +64,17 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
+    position: fixed;
 }
 .name{
     font-size: 2rem;
     margin:2rem 1rem 1.5rem 1rem;
+    text-align: center;
 }
 .work{
     font-size:1.5rem;
     margin-bottom: 3rem;
+    text-align: center;
 }
 .dylan{
     border:black solid 2px;
@@ -93,4 +96,40 @@ body{
 }
 .tab:hover{
     background-color:black;
+}
+.icons{
+    display:flex;
+    margin:10rem;
+}
+.icon{
+    padding:1rem 2rem;
+    font-size: 1.8rem;
+}
+.icon a{
+    color: white;
+}
+.link a:hover{
+    color:#398AD7;
+}
+.link:hover{
+    transform: scale(1.3);
+    transition: .5s;
+}
+.mail a:hover{
+    color:crimson;
+    transform: scale(1.3);
+    transition: .5s;
+}
+.mail:hover{
+    transform: scale(1.3);
+    transition: .5s;
+}
+.git a:hover{
+    color:seagreen;
+    transform: scale(1.3);
+    transition: .5s;
+}
+.git:hover{
+    transform: scale(1.3);
+    transition: .5s;
 }
