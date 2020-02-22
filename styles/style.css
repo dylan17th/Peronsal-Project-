@@ -149,6 +149,7 @@ a{
     display: flex;
     flex-direction: column;
     margin-left: 20vh;
+    display: flex;
 }
 
 #about{
