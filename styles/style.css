@@ -146,6 +146,9 @@ a{
     height:100vh;
     width:100vw;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vh;
 }
 
 #about{
@@ -162,7 +165,20 @@ a{
 #projects{
     background-color: white;
     height: 100vh;
-    width:vw;
+    width:80vw;
+    text-align: center;
+    margin-right: 1rem;
+    margin-left: 20vw;
+    display: flex;
+    justify-content: center;
+}
+#projects h1{
+    text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
+	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
+    -1px 0 0 #000; 
+    color:white;
+    font-size: 4rem; 
+    margin-top: 3rem;
     text-align: center;
 }
 #contact{
@@ -174,5 +190,22 @@ a{
     opacity: .8;
     color:white;
     text-align: center;
+}
+
+#home h1{
+    text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
+	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
+    -1px 0 0 #000; 
+    color:white;
+    font-size: 2.5rem; 
+    padding-top:35vh;
+}
+#home h2{
+    text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
+	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
+    -1px 0 0 #000; 
+    color:white;
+    font-size: 2.5rem; 
+    padding-top:5rem;
 }
 
