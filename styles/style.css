@@ -179,13 +179,10 @@ a{
     z-index: 10;  
     text-align: center;
     color:white;
-    border-top: black solid 3px;
-    border-bottom: black solid 3px;
 
 }
 
 #about-holder{
-    transform: rotate(-4deg);
     padding-top: 3rem;
     display: flex;
     flex-wrap: wrap;
@@ -295,19 +292,14 @@ a{
     margin:.2rem;
 }
 #contact{
-    background-color: black;
     height: 70vh;
     width:120vw;
-    transform: rotate(-4deg);
     z-index: 10;
     opacity: .9;
     color:white;
     text-align: center;
-    border-top: black solid 3px;
-    border-bottom: black solid 3px;
 }
 #contact-holder{
-    transform: rotate(4deg);
     padding-top: 1rem;
     display: flex;
     flex-wrap: wrap;
