@@ -142,7 +142,9 @@ a{
     transition: .5s;
 }
 #home{
-    background-color: white;
+    background-image: url('/images/earth-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height:100vh;
     width:80vw;
     text-align: center;
@@ -150,6 +152,14 @@ a{
     flex-direction: column;
     display: flex;
     margin-left: 20vw;
+}
+#home h1{
+    text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
+	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
+    -1px 0 0 #000; 
+    color:white;
+    font-size: 2.5rem; 
+    padding-top:35vh;
 }
 #home h2{
     text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
@@ -161,14 +171,16 @@ a{
 }
 
 #about{
-    background-color: 	rgb(64,64,64);
+    background-color:white;
+    border-top: black;
+    border-bottom: black;
     height:100vh;
     width:120vw;
-    transform: rotate(4deg);
-    z-index: 10;
-    opacity: .9;
+    z-index: 10;  
     text-align: center;
     color:white;
+    border-top: black solid 3px;
+    border-bottom: black solid 3px;
 
 }
 
@@ -195,7 +207,7 @@ a{
     margin-left: 22vw;
     padding:1rem;
     text-align: left;
-    box-shadow:  10px 10px 10px 10px white;
+    box-shadow:  10px 10px 10px 10px whitesmoke;
     text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
 	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
     -1px 0 0 #000;
@@ -283,22 +295,43 @@ a{
     margin:.2rem;
 }
 #contact{
-    background-color: rgb(64,64,64);
-    height: 60vh;
+    background-color: black;
+    height: 70vh;
     width:120vw;
     transform: rotate(-4deg);
     z-index: 10;
     opacity: .9;
     color:white;
     text-align: center;
+    border-top: black solid 3px;
+    border-bottom: black solid 3px;
 }
-#home h1{
+#contact-holder{
+    transform: rotate(4deg);
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact-holder h1{
+    padding-top: .5rem;
     text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
 	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
     -1px 0 0 #000; 
     color:white;
-    font-size: 2.5rem; 
-    padding-top:35vh;
+    font-size: 4rem; 
+    width: 100%;
+}
+
+.copy{
+    height: 10vh;
+    margin-left: 20vw;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 5rem;
+    text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
+	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
+    -1px 0 0 #000; 
+    color:white;
 }
 
 
