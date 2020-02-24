@@ -144,12 +144,12 @@ a{
 #home{
     background-color: white;
     height:100vh;
-    width:100vw;
+    width:80vw;
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-left: 20vh;
     display: flex;
+    margin-left: 20vw;
 }
 
 #about{
@@ -165,10 +165,9 @@ a{
 }
 #projects{
     background-color: white;
-    height: 100vh;
+    height: 130vh;
     width:80vw;
     text-align: center;
-    margin-right: 1rem;
     margin-left: 20vw;
     display: flex;
     justify-content: center;
@@ -180,7 +179,69 @@ a{
     color:white;
     font-size: 4rem; 
     margin-top: 3rem;
+    margin-bottom: 1.5rem;
     text-align: center;
+    width: 100%;
+}
+#project-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height:40vh;
+    width: 27vw;
+    margin:1.5rem;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+.img-holder{
+    height:75%;
+    width:100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    object-fit: scale-down;
+}
+.date{
+    background-color: black;
+    color:white;
+    padding: .5rem;
+    width: 3vw;
+    border-radius: 20%;
+    margin:.5rem;
+    height: 4vh;
+    opacity: .7;
+
+}
+.card-title{
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px grey;
+}
+.card-title{
+    font-size: 2rem;
+    color: black;
+    text-shadow: 2px 2px 4px black;
+    padding:1rem;
+}
+.div-button{
+    display: flex;
+    justify-content: space-evenly;
+    padding: .5rem;
+
+}
+.button{
+    width:40%;
+    padding:.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+    border-radius: 10px;
+    background-color: #000;
+    margin:.2rem;
 }
 #contact{
     background-color: rgb(64,64,64);
@@ -192,6 +253,7 @@ a{
     color:white;
     text-align: center;
 }
+
 
 #home h1{
     text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
