@@ -215,7 +215,7 @@ a{
 /* projects seciton */
 #projects{
     background-color: white;
-    height: 130vh;
+    height: 100vh;
     width:80vw;
     text-align: center;
     margin-left: 20vw;
@@ -226,11 +226,12 @@ a{
     text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
 	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
     -1px 0 0 #000; 
-    color:white;
+    color:crimson;
     font-size: 4rem; 
-    margin-top: 3rem;
+    margin-top: 1rem;
     text-align: center;
     width: 100%;
+    margin-bottom: 1rem;
 }
 #project-holder{
     display: flex;
@@ -298,6 +299,8 @@ a{
     opacity: .9;
     color:white;
     text-align: center;
+    margin-top: 4rem ;
+
 }
 #contact-holder{
     padding-top: 1rem;
