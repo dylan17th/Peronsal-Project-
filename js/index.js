@@ -76,5 +76,15 @@ projectContainer.appendChild(cardCreator('../images/planet-planners.png', '7th F
 projectContainer.appendChild(cardCreator('../images/planet-planners.png', '7th Feb', 'Planet Planners', 'https://github.com/Build-Week-Water-My-Plants-2/Marketing-page/tree/dylan-collins', 'https://planetplanners.netlify.com/'))
 projectContainer.appendChild(cardCreator('../images/planet-planners.png', '7th Feb', 'Planet Planners', 'https://github.com/Build-Week-Water-My-Plants-2/Marketing-page/tree/dylan-collins', 'https://planetplanners.netlify.com/'))
 
-const submitButton = document.querySelector('buttonSub');
-console.log(submitButton)
+const teamUp = document.getElementById('team-up');
+
+teamUp.addEventListener('mouseover', ()=>{
+    teamUp.style.transform = 'scale(1.2)'
+    teamUP.style.transition= '.3s';
+})
+
+teamUp.addEventListener('mouseleave', ()=>{
+    teamUp.style.transform = 'scale(1.0)';
+    teamUp.style.transition= '.3s';
+    
+})
