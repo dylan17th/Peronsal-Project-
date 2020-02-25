@@ -6,6 +6,7 @@
     <link rel='stylesheet' href="./styles/style.css">
     <script src="/js/index.js" defer></script>
     <script src="https://kit.fontawesome.com/975fc712d3.js"></script>
+    <link rel="stylesheet" href="animate.min.css">
     <title>Dylan Collins Portfolio</title>
 </head>
 <body>
@@ -31,8 +32,7 @@
     </div>
     <div id="about">
         <div id='about-holder'>
-            <h1>About</h1>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus praesentium fuga voluptates corporis dignissimos quas officia perferendis ex quasi eum veniam rem laboriosam veritatis dolorum cumque error eveniet, non mollitia eos doloribus vero earum ipsam! Officia repellat, dicta harum vitae, sequi maxime iusto et itaque earum nulla expedita labore quas dignissimos impedit debitis dolorem ab, suscipit iste nihil eveniet qui magnam accusamus! Blanditiis consequuntur ipsam quas quae officia, voluptate magnam aliquid, tempora quos quidem dolores illum quia cupiditate porro eius? Pariatur, iure tenetur? Autem, repellat corporis nobis non soluta doloribus ex omnis itaque, qui consectetur error. Adipisci nam voluptatum est.</p>
+            <h1 class='animated fadeInLeftBig'>About</h1>
         </div>
     </div>
     <div id='projects'>
@@ -43,6 +43,20 @@
     <div id='contact'>
         <div id='contact-holder'>
             <h1>Let's team up</h1>
+            <form class='inputs'>
+                <label class='lab'>Full Name<br/>
+                    <input type='text' name='name' id='name' placeholder="Johnny Appleseed">
+                </label>
+                <label class='lab'>Email<br/>
+                    <input type='text' name='email' id='email' placeholder="Example@example.com">
+                </label>
+                <label class='lab'>Message<br/>
+                    <textarea placeholder="Max 250 characters"></textarea>
+                </label>
+                <div class='lab '>
+                    <button class='buttonSub' type='submit'>Submit</button>
+                </div>
+            </form>
         </div>
     </div> 
     <div class='copy'>Created & Designed by Dylan Collins</div> 

@@ -172,13 +172,13 @@ a{
 
 #about{
     background-color:white;
-    border-top: black;
-    border-bottom: black;
     height:100vh;
-    width:120vw;
-    z-index: 10;  
+    width:80vw; 
     text-align: center;
     color:white;
+    margin-left: 20vw;
+    display: flex;
+    justify-content: space-around;
 
 }
 
@@ -195,16 +195,19 @@ a{
     color:white;
     font-size: 4rem; 
     width: 100%;
+    animation-name: 20%;
+    animation-duration: 4s;
+    animation-direction: reverse;
 }
 #about-holder p{
-    width:25%;
+    width:30%;
     font-size: 1rem ;
     line-height: 2rem;
     margin-top: 3rem ;
     margin-left: 22vw;
     padding:1rem;
     text-align: left;
-    box-shadow:  10px 10px 10px 10px whitesmoke;
+    /* box-shadow:  10px 10px 10px 10px whitesmoke; */
     text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
 	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
     -1px 0 0 #000;
@@ -226,11 +229,12 @@ a{
     text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
 	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
     -1px 0 0 #000; 
-    color:crimson;
+    color:white;
     font-size: 4rem; 
     margin-top: 1rem;
     text-align: center;
-    width: 100%;
+    width: 80%;
+    padding:1rem;
     margin-bottom: 1rem;
 }
 #project-holder{
@@ -244,12 +248,15 @@ a{
     height:40vh;
     width: 27vw;
     margin:1.5rem;
-    box-shadow: 10px 10px 10px 10px grey;
+    box-shadow: 10px 10px 10px 10px lightgrey;
+    border-radius: 10px;
 }
 .img-holder{
     height:75%;
     width:100%;
     background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     max-width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -268,12 +275,12 @@ a{
 .card-title{
     font-size: 1.5rem;
     color: white;
-    text-shadow: 2px 2px 4px grey;
+    text-shadow: 2px 2px 4px black;
 }
 .card-title{
     font-size: 2rem;
-    color: black;
-    text-shadow: 2px 2px 4px black;
+    color: white;
+    text-shadow: 3px 3px 5px black;
     padding:1rem;
 }
 .div-button{
@@ -285,36 +292,76 @@ a{
 .button{
     width:40%;
     padding:.5rem;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-    box-shadow: 1px 1px 1px 1px whitesmoke;
+    box-shadow: 1px 1px 1px 1px lightgrey;
     border-radius: 10px;
-    background-color: #000;
+    background-color: white;
     margin:.2rem;
+}
+.button a{
+    color: black;
 }
 #contact{
     height: 70vh;
-    width:120vw;
-    z-index: 10;
-    opacity: .9;
-    color:white;
+    width:80vw;
     text-align: center;
     margin-top: 4rem ;
+    margin-left: 20vw;
 
 }
 #contact-holder{
     padding-top: 1rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 #contact-holder h1{
     padding-top: .5rem;
+    padding-bottom: 1rem;
     text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
 	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
     -1px 0 0 #000; 
     color:white;
     font-size: 4rem; 
-    width: 100%;
+    width: 80%;
+    border-bottom: black dashed 2px;
+    margin-bottom: 2rem;
+}
+
+.inputs{
+    display:flex;
+    justify-content: flex-start;
+    height:65vh;
+    width:40vw;
+    flex-wrap: wrap;
+    align-items:center;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    border-radius: 10px;
+    line-height: 2rem;
+}
+
+.lab{
+width:100%;
+text-align: center;
+font-size: 1.5rem;
+padding: .5rem;
+}
+.lab input{
+    width:30vw;
+    height:1rem;
+    font-size: 1rem;
+    padding:.5rem;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    border:none;
+    border-radius: 10px;
+
+}
+.lab textarea{
+    height:20vh;
+    width:30vw;
+    font-size: 1rem;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    border:none;
+    border-radius: 10px;
 }
 
 .copy{
@@ -322,11 +369,26 @@ a{
     margin-left: 20vw;
     text-align: center;
     font-size: 1.5rem;
-    padding-top: 5rem;
+    padding-top: 10rem;
     text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
 	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
     -1px 0 0 #000; 
     color:white;
 }
+.buttonSub{
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    border:none;
+    border-radius: 10px;
+    width:10vw;
+    padding: .5rem 1rem;
+
+}
+.buttonSub:hover{
+    background-color: black;
+    color: white;
+}
+
 
 

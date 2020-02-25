@@ -43,18 +43,26 @@ function cardCreator(image, date, name, link, link2){
     buttonCode.addEventListener('mousemove', ()=>{
         buttonCode.style.transform = 'scale(1.1)'
         buttonCode.style.transition= '.3s';
+        buttonCode.style.backgroundColor = 'black';
+        anchorCode.style.color = 'white';
     })
     buttonCode.addEventListener('mouseleave', ()=>{
         buttonCode.style.transform = 'scale(1.0)';
         buttonCode.style.transition= '.3s';
+        buttonCode.style.backgroundColor = 'white';
+        anchorCode.style.color = 'black';
     })
     buttonWebsite.addEventListener('mousemove', ()=>{
         buttonWebsite.style.transform = 'scale(1.1)'
         buttonWebsite.style.transition= '.3s';
+        buttonWebsite.style.backgroundColor = 'black';
+        anchorWebsite.style.color = 'white';
     })
     buttonWebsite.addEventListener('mouseleave', ()=>{
         buttonWebsite.style.transform = 'scale(1.0)';
         buttonWebsite.style.transition= '.3s';
+        buttonWebsite.style.backgroundColor = 'white';
+        anchorWebsite.style.color = 'black';
     })
 
     return card
@@ -67,3 +75,6 @@ projectContainer.appendChild(cardCreator('../images/planet-planners.png', '7th F
 projectContainer.appendChild(cardCreator('../images/planet-planners.png', '7th Feb', 'Planet Planners', 'https://github.com/Build-Week-Water-My-Plants-2/Marketing-page/tree/dylan-collins', 'https://planetplanners.netlify.com/'))
 projectContainer.appendChild(cardCreator('../images/planet-planners.png', '7th Feb', 'Planet Planners', 'https://github.com/Build-Week-Water-My-Plants-2/Marketing-page/tree/dylan-collins', 'https://planetplanners.netlify.com/'))
 projectContainer.appendChild(cardCreator('../images/planet-planners.png', '7th Feb', 'Planet Planners', 'https://github.com/Build-Week-Water-My-Plants-2/Marketing-page/tree/dylan-collins', 'https://planetplanners.netlify.com/'))
+
+const submitButton = document.querySelector('buttonSub');
+console.log(submitButton)
